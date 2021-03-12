@@ -1,0 +1,19 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Page title</title>
+        <meta charset="UTF-8"/>
+    </head>
+    <body>
+        <script>
+            // js here
+            
+            function add7(){
+                let number=prompt ("n=");
+                let newnumber= parseInt(number)+7;
+                return (newnumber);
+            }
+           console.log(add7());
+        </script>
+    </body>
+</html>
